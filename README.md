@@ -15,8 +15,10 @@ If you would like to run the code for yourself, please note that the API key for
 The abstracts were filtered according to the following methodology:
 
 1. The OpenAlex Topics spreadsheet was manually inspected, and the list of topics broadly included in earth systems sciences were selected. You may inspect these topics by taking a look at the `openalex_ess_topics.csv` file in the root directory. Out of 4000 OpenAlex topics, 600 were selected for inclusion according to the earth system science criteria.
-2. The OpenAlex "search" api tool was used to filter all papers with these topic ID's as well as restricting results to papers with titles containing the term "review", while NOT containing the term "peer review".
-3. A script was run to download all relevant abstracts, and the corresponding review papers in pdf format from OpenAlex
+   
+3. The OpenAlex "search" api tool was used to filter all papers with these topic ID's as well as restricting results to papers with titles containing the term "review", while NOT containing the term "peer review".
+
+4. A script was run to download all relevant abstracts, and the corresponding review papers in pdf format from OpenAlex.
 
 # Running the code
 
