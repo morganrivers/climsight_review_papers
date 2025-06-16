@@ -4,9 +4,9 @@
 
 This is a small repository containing code necessary to download approximately 50 thousand abstracts and 30 thousand full text pdfs for the climsight system.
 
-The source of the paper repository is OpenAlex. However, other sites were queried to obtain the full texts.
+The source of the paper repository is OpenAlex. However, other sites were queried to obtain the full texts (openalex, unpaywall, semantic scholar, elsevier api).
 
-Using the OpenAlex "Topics" categorization, each review paper has been categorized by the theme which it pertains to. These can be found by inspecting the `openalex_ess_topics.csv` file.
+Using the OpenAlex "Topics" categorization, each review paper has been categorized by the theme which it pertains to. The categories can be found by inspecting the `openalex_ess_topics.csv` file. Each downloaded abstract also contains a Topic ID.
 
 If you would like to run the code for yourself, please note that the API key for elsevier, and your email address for API registrations must be input in the `API_KEYS.txt` file in the git root directory.
 
