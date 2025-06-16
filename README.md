@@ -24,30 +24,22 @@ The abstracts were filtered according to the following methodology:
 
 A. (Optional) To view the counts of all papers in openalex matching the search specified above, navigate to `src/` and run:
 
- 	```
 	python A_print_counts_of_all_papers_matching_search.py
-	```
 
 
 B. Download all the abstracts for the topics.
 
-	 ```
 	python B_download_all_topics.py
-	```
  
 
 C. Combine the abstract csv files which were saved in separate folder for each topic into a single `all_records.csv` file.
 
- 	```
 	python C_combine_csvs.py
-	```
 
 
 D. Download the full texts of all matching abstracts (can take 1-3 days to download 50,000 files).
 
- 	```
 	python D_download_fulltexts.py
-	```
 
 
 # Tests
