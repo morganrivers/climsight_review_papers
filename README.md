@@ -44,7 +44,7 @@ D. Download the full texts of all matching abstracts (can take 1-3 days to downl
 
 # Tests
 
-Tests can be run with:
+Tests can be run from the git root directory with:
 ```
 python tests/test_run_all.py
 ```
