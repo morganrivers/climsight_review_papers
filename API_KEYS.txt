@@ -1,0 +1,8 @@
+# API Keys and Personal Information for Climsight Review Papers
+# Store sensitive information here instead of hardcoding in source files
+
+# Elsevier API Key
+ELSEVIER_API_KEY=your_api_key_here
+
+# Email address for API registration (required by some academic APIs)
+EMAIL_ADDRESS=your_email_here
